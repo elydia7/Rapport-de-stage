@@ -54,14 +54,12 @@ pdfstartview={FitH}}                    % ajuste la page à la largueur de l'éc
 %page de garde
 \input{./title.tex}
 
-%page blanche
-\newpage
-~
 %ne pas numéroter cette page
 \thispagestyle{empty}
 \newpage
 
-%\input{./abstract.tex}
+\input{./abstract.tex}
+\thispagestyle{empty}
 
 \tableofcontents
 \thispagestyle{empty}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.9)  12 JUN 2017 01:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.9)  14 JUN 2017 01:08
 entering extended mode
 **./Rapport_de_stage.tex
 (Rapport_de_stage.tex
@@ -806,14 +806,14 @@ LaTeX Info: Redefining \nameref on input line 49.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-(title.tex <./logo_lyon1_2.jpg, id=6, 342.8007pt x 218.0145pt>
+(title.tex <./logo_lyon1_2.jpg, id=10, 342.8007pt x 218.0145pt>
 File: ./logo_lyon1_2.jpg Graphic file (type jpg)
 
 <use ./logo_lyon1_2.jpg>
 Package pdftex.def Info: ./logo_lyon1_2.jpg used on input line 5.
 (pdftex.def)             Requested size: 169.29684pt x 107.66966pt.
 
-<./secuserve_logo.png, id=7, 347.2975pt x 183.68625pt>
+<./secuserve_logo.png, id=11, 347.2975pt x 183.68625pt>
 File: ./secuserve_logo.png Graphic file (type png)
 
 <use ./secuserve_logo.png>
@@ -822,12 +822,17 @@ Package pdftex.def Info: ./secuserve_logo.png used on input line 23.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo_lyon1_2.jpg> <./se
-cuserve_logo.png>])pdfTeX warning (ext4): destination with the same identifier 
-(name{page.1}) has been already used, duplicate ignored
+cuserve_logo.png>]) (abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \newpage
-              [1] (Rapport_de_stage.toc)
+l.13 \end{abstract}
+                    [1]) (Rapport_de_stage.toc)
 \tf@toc=\write5
 \openout5 = `Rapport_de_stage.toc'.
 
@@ -837,37 +842,38 @@ l.62 \newpage
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \newpage
+l.80 \newpage
               [0]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
  (Rapport_de_stage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `Rapport_de_stage.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+(rerunfilecheck)             Checksum: 2326F8A0093F88FA6D6073106446F420;49.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 19926 strings out of 493323
- 360897 string characters out of 3139076
- 448204 words of memory out of 3000000
- 23114 multiletter control sequences out of 15000+200000
- 12890 words of font info for 28 fonts, out of 3000000 for 9000
+ 19932 strings out of 493323
+ 360956 string characters out of 3139076
+ 448208 words of memory out of 3000000
+ 23117 multiletter control sequences out of 15000+200000
+ 13666 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,5n,96p,445b,517s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
 x2488.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
-600\ecxc1200.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecrm1200.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecti1200.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\Hp\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Hp\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk>
-Output written on Rapport_de_stage.pdf (4 pages, 318562 bytes).
+600\ecbx1000.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecxc1200.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecrm1200.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Hp\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\Hp\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Hp\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk>
+Output written on Rapport_de_stage.pdf (4 pages, 337963 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
+ 292 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
