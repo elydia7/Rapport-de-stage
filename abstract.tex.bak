@@ -1,5 +1,5 @@
 \renewcommand{\abstractname}{Remerciements}
-\addcontentsline{toc}{chapter}{Remerciements}
+%\addcontentsline{toc}{chapter}{Remerciements}
 \begin{abstract}
 \hskip7mm
 \begin{spacing}{1.3}
