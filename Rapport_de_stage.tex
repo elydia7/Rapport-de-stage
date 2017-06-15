@@ -1,4 +1,4 @@
-\documentclass[a4paper]{report}
+\documentclass[12pt,twoside,a4paper]{report}
 
 %====================== PACKAGES ======================
 
@@ -50,7 +50,7 @@ pdfstartview={FitH}}                    % ajuste la page à la largueur de l'éc
 
 %régler l'espacement entre les lignes
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-
+\renewcommand{\thesection}{\arabic{section}}
 %page de garde
 \input{./title.tex}
 
