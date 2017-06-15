@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.9)  15 JUN 2017 02:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.30)  15 JUN 2017 12:03
 entering extended mode
 **./Rapport_de_stage.tex
 (Rapport_de_stage.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -23,7 +23,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/05/19 3.10 The Babel package
+Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
@@ -33,47 +33,47 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\frenchb.ldf"
-Language: frenchb 2017/04/30 v3.3a French support from the babel system
+Language: frenchb 2017/01/30 v3.2g French support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/05/19 3.10 Babel common definitions
+File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
 \FB@nonchar=\count89
-\FBcolonsp=\toks14
-\FBthinsp=\toks15
-Package babel Info: Making : an active character on input line 362.
-Package babel Info: Making ; an active character on input line 363.
-Package babel Info: Making ! an active character on input line 364.
-Package babel Info: Making ? an active character on input line 365.
-\FBguillsp=\toks16
+\FBcolonskip=\skip43
+\FBthinskip=\skip44
+Package babel Info: Making : an active character on input line 365.
+Package babel Info: Making ; an active character on input line 366.
+Package babel Info: Making ! an active character on input line 367.
+Package babel Info: Making ? an active character on input line 368.
+\FBguillskip=\skip45
 \FBguill@level=\count90
-\FB@everypar=\toks17
+\FB@everypar=\toks14
 \FB@Mht=\dimen104
 \mc@charclass=\count91
 \mc@charfam=\count92
 \mc@charslot=\count93
 \std@mcc=\count94
 \dec@mcc=\count95
-\listindentFB=\skip43
-\descindentFB=\skip44
-\labelwidthFB=\skip45
-\leftmarginFB=\skip46
+\listindentFB=\skip46
+\descindentFB=\skip47
+\labelwidthFB=\skip48
+\leftmarginFB=\skip49
 \parindentFFN=\dimen105
-\FBfnindent=\skip47
+\FBfnindent=\skip50
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks15
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
@@ -85,21 +85,21 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
 \uc@secondtry=\count96
-\uc@combtoks=\toks21
-\uc@combtoksb=\toks22
-\uc@temptokena=\toks23
+\uc@combtoks=\toks18
+\uc@combtoksb=\toks19
+\uc@temptokena=\toks20
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count97
-\float@exts=\toks24
+\float@exts=\toks21
 \float@box=\box26
-\@float@everytoks=\toks25
+\@float@everytoks=\toks22
 \@floatcapt=\box27
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip48
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -107,7 +107,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks26
+\@emptytoks=\toks23
 \ex@=\dimen106
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -137,21 +137,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \dotsspace@=\muskip10
 \c@parentequation=\count105
 \dspbrk@lvl=\count106
-\tag@help=\toks27
+\tag@help=\toks24
 \row@=\count107
 \column@=\count108
 \maxfields@=\count109
-\andhelp@=\toks28
+\andhelp@=\toks25
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
 \tagshift@=\dimen111
 \tagwidth@=\dimen112
 \totwidth@=\dimen113
 \lineht@=\dimen114
-\@envbody=\toks29
-\multlinegap=\skip49
-\multlinetaggap=\skip50
-\mathdisplay@stack=\toks30
+\@envbody=\toks26
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -195,8 +195,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks31
-\XKV@tempa@toks=\toks32
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
 )
 \XKV@depth=\count111
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -222,7 +222,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks33
+\pgfutil@everybye=\toks30
 \pgfutil@tempdima=\dimen117
 \pgfutil@tempdimb=\dimen118
 
@@ -243,12 +243,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks34
-\pgfkeys@temptoks=\toks35
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
 x"
-\pgfkeys@tmptoks=\toks36
+\pgfkeys@tmptoks=\toks33
 ))
 \pgf@x=\dimen119
 \pgf@y=\dimen120
@@ -264,9 +264,9 @@ x"
 \c@pgf@countb=\count113
 \c@pgf@countc=\count114
 \c@pgf@countd=\count115
-\t@pgf@toka=\toks37
-\t@pgf@tokb=\toks38
-\t@pgf@tokc=\toks39
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
  ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -297,9 +297,9 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@dimen=\dimen127
 \pgfmath@count=\count118
 \pgfmath@box=\box31
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
@@ -438,8 +438,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen154
 \pgffor@skip=\dimen155
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -487,12 +487,12 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count132
 \calc@Adimen=\dimen163
 \calc@Bdimen=\dimen164
-\calc@Askip=\skip51
-\calc@Bskip=\skip52
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count133
-\calc@Cskip=\skip53
+\calc@Cskip=\skip56
 )
 \c@@todonotes@numberoftodonotes=\count134
 )
@@ -607,15 +607,15 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip54
+\Hy@SectionHShift=\skip57
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen169
 \extrarowheight=\dimen170
-\NC@list=\toks45
-\extratabsurround=\skip55
-\backup@length=\skip56
+\NC@list=\toks42
+\extratabsurround=\skip58
+\backup@length=\skip59
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
@@ -625,18 +625,18 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@target=\dimen174
 \TX@delta=\dimen175
 \TX@cols=\count145
-\TX@ftn=\toks46
+\TX@ftn=\toks43
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\abstract\abstract.sty"
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip57
-\absleftindent=\skip58
-\absrightindent=\skip59
-\absparindent=\skip60
-\absparsep=\skip61
+\abstitleskip=\skip60
+\absleftindent=\skip61
+\absrightindent=\skip62
+\absparindent=\skip63
+\absparsep=\skip64
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
@@ -658,7 +658,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen181
 \Gm@layouthoffset=\dimen182
 \Gm@layoutvoffset=\dimen183
-\Gm@dimlist=\toks47
+\Gm@dimlist=\toks44
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
@@ -683,18 +683,18 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 \c@KVtest=\count150
-\sf@farskip=\skip62
+\sf@farskip=\skip65
 \sf@captopadj=\dimen191
-\sf@capskip=\skip63
-\sf@nearskip=\skip64
+\sf@capskip=\skip66
+\sf@nearskip=\skip67
 \c@subfigure=\count151
 \c@subfigure@save=\count152
 \c@lofdepth=\count153
 \c@subtable=\count154
 \c@subtable@save=\count155
 \c@lotdepth=\count156
-\sf@top=\skip65
-\sf@bottom=\skip66
+\sf@top=\skip68
+\sf@bottom=\skip69
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
@@ -729,12 +729,12 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \scratchbox=\box41
 \nofMPsegments=\count158
 \nofMParguments=\count159
-\everyMPshowfont=\toks48
+\everyMPshowfont=\toks45
 \MPscratchCnt=\count160
 \MPscratchDim=\dimen193
 \MPnumerator=\count161
 \makeMPintoPDFobject=\count162
-\everyMPtoPDFconversion=\toks49
+\everyMPtoPDFconversion=\toks46
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -806,14 +806,14 @@ LaTeX Info: Redefining \nameref on input line 49.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-(title.tex <./logo_lyon1_2.jpg, id=10, 342.8007pt x 218.0145pt>
+(title.tex <./logo_lyon1_2.jpg, id=30, 342.8007pt x 218.0145pt>
 File: ./logo_lyon1_2.jpg Graphic file (type jpg)
 
 <use ./logo_lyon1_2.jpg>
 Package pdftex.def Info: ./logo_lyon1_2.jpg used on input line 5.
 (pdftex.def)             Requested size: 169.29684pt x 107.66966pt.
 
-<./secuserve_logo.png, id=11, 347.2975pt x 183.68625pt>
+<./secuserve_logo.png, id=31, 347.2975pt x 183.68625pt>
 File: ./secuserve_logo.png Graphic file (type png)
 
 <use ./secuserve_logo.png>
@@ -843,12 +843,12 @@ l.13 \end{abstract}
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 8--14
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--14
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
 
  []
 
@@ -857,38 +857,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--14
 <to be read again> 
                    \relax 
 l.81 \newpage
-              [1] (environnement.tex) [2]
+              [1] (environnement.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+) [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
  (Rapport_de_stage.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `Rapport_de_stage.out' has not changed.
-(rerunfilecheck)             Checksum: B100194FADF71AD186B2C4CFF6B06988;66.
+(rerunfilecheck)             Checksum: 86F021024248F34B6A1DAF21B43E9136;428.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 20197 strings out of 493323
- 363972 string characters out of 3139076
- 448213 words of memory out of 3000000
- 23368 multiletter control sequences out of 15000+200000
+ 20164 strings out of 493328
+ 363609 string characters out of 3139118
+ 447625 words of memory out of 3000000
+ 23326 multiletter control sequences out of 15000+200000
  15209 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,5n,96p,621b,517s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
-x1000.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
-600\ecbx2488.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecxc1200.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecrm1200.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Hp\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Hp\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Hp\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\Hp\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Hp\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk>
-Output written on Rapport_de_stage.pdf (5 pages, 352141 bytes).
+ 62i,5n,96p,691b,517s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Mamadou\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ecbx1200.pk> <C:\Users\Mamadou\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecbx1000.pk> <C:\Users\Mamadou\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Mamadou\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1200.pk> <C:\Users\Mamadou\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Mamado
+u\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\
+Users\Mamadou\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1
+440.pk> <C:\Users\Mamadou\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
+dpi600\ecbx2074.pk> <C:\Users\Mamadou\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\eccc1000.pk> <C:\Users\Mamadou\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Mamadou\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk>
+Output written on Rapport_de_stage.pdf (5 pages, 368467 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
