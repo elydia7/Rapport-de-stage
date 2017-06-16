@@ -1,3 +1,4 @@
+
 \documentclass[12pt,twoside,a4paper]{report}
 
 %====================== PACKAGES ======================
@@ -51,6 +52,7 @@ pdfstartview={FitH}}                    % ajuste la page à la largueur de l'éc
 %régler l'espacement entre les lignes
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\theparagraph}{\arabic{paragraph}}
 %page de garde
 \input{./title.tex}
 
@@ -84,17 +86,27 @@ pdfstartview={FitH}}                    % ajuste la page à la largueur de l'éc
 \newpage
 
 \input{./mission.tex}
-%\input{./existant.tex}
+\newpage
+
+%retour sur l'experience
+\input{./experience.tex}
+ \newpage
+
+%Conclusion
+\input{./conclusion.tex}
+ \newpage 
  
-%\input{./besoins.tex}
+ %les annexes 
+ \input{./annexe1.tex}
+ \newpage
+ \input{./annexe2.tex}
+ \newpage
+ \input{./annexe3.tex}
+ \newpage
+ \input{./annexe4.tex}
+ \newpage
+ \input{./annexe5.tex}
 
-%\input{./autre_partie.tex}
-
-%\input{./resultats.tex}
-
-%\input{./bilan.tex}
-
-%\input{./annexes.tex}
 
 \newpage
 
