@@ -1,7 +1,7 @@
 %mission
 \section{Missions}
 
-\subsection{Tâches effectuées}
+\subsection{Missions réalisées}
 \subsubsection{Mise en place de l'environnent de travail}
 Pour pouvoir faire ces taches de développement il fallait avoir certains notions de la structure des fichiers et quelque logiciels de bases a installer pour pouvoir débuter le développement du site appeler (la console d'administration) tel-que: 
 \begin{enumerate}
@@ -33,15 +33,25 @@ Comme toutes les autres pages mvcisé j'utilise un contrôleur qui hérite d'un 
 \begin{enumerate}
 
 
-\item Récupérer dans une variable les noms de tous les contrôleurs et leurs méthodes définies au sein du contrôleur générique
+\item Récupérer dans une variable les noms de tous les contrôleurs et leurs méthodes en parcourant un fichier XML générer à partir d'une carte XMIND.
 \item Ensuite créer un formulaire (tableau avec des checkbox) d'administration à partir de cette variable pour les différents profils.
 	\begin{itemize}
-	\item 1
+	\item Lorsqu'on fini de cocher les cases du formulaire et qu'on valide pour l'envoyer, l'action est automatiquement historisée en enregistrant les données modifiées suivi des messages de session en cas d'erreur ou de succès.
 	\end{itemize}
 \item Enfin
 \end{enumerate}
+\paragraph{Autorisations}
+\subparagraph{Controlleur: generiqueController} 
+Dans chaque contrôleur on vérifie les droits d’utilisateur de tous les liens sur la pages avant de l’afficher, en parcourant
+un fichier XML qui définit l’architecture de celle-ci.
+\subparagraph{Exception pour superuser}
+Par défaut si on est super-user le contrôleur donne droit sur toutes les pages du site.
+\subparagraph{Pages publiques} 
+Certaine page sont public comme par exemple les pages de l'aide (documentation, téléchargement, etc...) et son
+accessible sans vérification de droits.
 
-\subsection{Missions réalisées}
+\subparagraph{Traduction des pages}
+La console d'administration utilise deux formats de langue, par conséquent il faut chercher chaque mot dans la table correspondance (développer par le responsable D\&R Lionel Fevre) pour ensuite l'appeler dans une fonction qui permet d'afficher ce dernier dans la langue choisie(FR,EN).
 
 \subsection{Missions à réalisées}
 
