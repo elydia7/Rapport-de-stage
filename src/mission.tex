@@ -1,0 +1,61 @@
+%mission
+\section{Missions}
+
+\subsection{Missions réalisées}
+\subsubsection{Mise en place de l'environnent de travail}
+Pour pouvoir faire ces taches de développement il fallait avoir certains notions de la structure des fichiers et quelque logiciels de bases a installer pour pouvoir débuter le développement du site appeler (la console d'administration) tel-que: 
+\begin{enumerate}
+\item la structure de la base de donnée \textbf{Mysql} qui comprend plusieurs serveurs de bases de données ces derniers correspondent à des environnements de travail pour les développeurs, qui sont différentes étapes du développement (développement, pré-production, production) avant la version final.
+\item la structure du dépôt de fichiers gérer par le gestionnaire de versions \textbf{SVN} qui nous permets de faire des commits sur le serveur de développement.
+\item Installer les IDE \textbf{(NETBEANS et PhpStorm)} car le développement actuelle est fait sur \textbf{Netbeans} mais par la suite on développera avec \textbf{PhpStorm} et qu'on utilisera \textbf{Gitlab} comme gestionnaire de version. Il fallait aussi installer \textbf{PUTTY} pour la connexion aux serveur du développement et \textbf{XMIND} un logiciel qui permet de creer des cartes en \textbf{XML}. 
+\end{enumerate}
+  
+\subsubsection{Définition de permissions sur la console d'administration en fonction du profil des utilisateurs.}
+\begin{description}
+
+
+\item[Profile:] un profil est une configuration de droits (admin, rssi etc..)
+
+\item[Login:] utilisateur de la console d’administration ayant un profil.
+
+\item[Pages mvcisé:] on à utiliser le modèle view contrôleur pour développer les différents aspects de notre site.
+
+\item[Pages non mvcisé:] utilises un contrôleur pour contrôler les droits afin de rediriger vers la page correspondante en attendant que la page soit mvcisé.
+
+\item[Contrôleur:] Permet de gérer définir des actions à travers ses méthodes sur un aspect du site web.
+
+\item[Méthode:] Permet de gérer les actions à réaliser avant d'envoyer les données sur la vue (page web).
+\end{description}
+
+\paragraph{Gestion des droits}
+Est une interface d'administration des droits que j'ai développé,
+Comme toutes les autres pages mvcisé j'utilise un contrôleur qui hérite d'un contrôleur générique (créer par responsable R\&D) dans lequel on défini une méthode setRights qui permet:
+\begin{enumerate}
+
+
+\item Récupérer dans une variable les noms de tous les contrôleurs et leurs méthodes en parcourant un fichier XML générer à partir d'une carte XMIND.
+\item Ensuite créer un formulaire (tableau avec des checkbox) d'administration à partir de cette variable pour les différents profils.
+	\begin{itemize}
+	\item Lorsqu'on fini de cocher les cases du formulaire et qu'on valide pour l'envoyer, l'action est automatiquement historisée en enregistrant les données modifiées suivi des messages de session en cas d'erreur ou de succès.\label{annexe1}annex
+	\end{itemize}
+\end{enumerate}
+\paragraph{Autorisations}
+\subparagraph{Controlleur: generiqueController} 
+Dans chaque contrôleur on vérifie les droits d’utilisateur de tous les liens sur la pages avant de l’afficher, en parcourant
+un fichier XML qui définit l’architecture de celle-ci.
+\subparagraph{Exception pour superuser}
+Par défaut si on est super-user le contrôleur donne droit sur toutes les pages du site.
+\subparagraph{Pages publiques} 
+Certaine page sont public comme par exemple les pages de l'aide (documentation, téléchargement, etc...) et son
+accessible sans vérification de droits.
+
+\subparagraph{Traduction des pages}
+La console d'administration utilise deux formats de langue, par conséquent il faut chercher chaque mot dans la table correspondance (développer par le responsable D\&R Lionel Fevre) pour ensuite l'appeler dans une fonction qui permet d'afficher ce dernier dans la langue choisie(FR,EN).
+
+\subsection{Missions à réalisées}
+
+\subsection{Autres Missions}
+
+
+
+
