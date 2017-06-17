@@ -49,12 +49,57 @@ Par défaut si on est super-user le contrôleur donne droit sur toutes les pages
 Certaine page sont public comme par exemple les pages de l'aide (documentation, téléchargement, etc...) et son
 accessible sans vérification de droits.
 
-\subparagraph{Traduction des pages}
-La console d'administration utilise deux formats de langue, par conséquent il faut chercher chaque mot dans la table correspondance (développer par le responsable D\&R Lionel Fevre) pour ensuite l'appeler dans une fonction qui permet d'afficher ce dernier dans la langue choisie(FR,EN).
-
+\paragraph{Traduction des pages}
+La console d'administration utilise deux formats de langue, par conséquent il faut chercher chaque mot dans une table de correspondance (développer par le responsable D\&R Lionel Fevre) pour ensuite l'appeler dans une fonction qui permet d'afficher ce dernier dans la langue choisie(FR,EN).
+Les taches réalisées jusqu’à maintenant permettent a l'utilisateur d'administrer les les droits d'un certain profile de tel sorte que ce dernier ne puisse accéder qu'aux pages  dont il a l'autorisation. 
 \subsection{Missions à réalisées}
+\subsubsection{Finalisation du projet et Test}
+Sur les premières taches réalisées (Gestion des droits sur la console):
+\begin{itemize}
+\item Faire un revu du code entier.
+\item Faire des tests et compléter la documentation.
+\item Enfin faire une Présentation du projet a mon  maître de stage. 
+\end{itemize}
+\subsubsection{Filtrage en sortie}
+\paragraph{Description de l'objectif:} L'objectif est de définir des règles afin de pouvoir définir des actions (blocage, audit,...) lors du filtrage des e-mails en sortie.
+\paragraph{Définition des règles :}
+Une règle est une action réalisée sous condition(s) entre deux ensembles (groupes, domaine(s), ou adresses e-mail) l'un interne et l'autre externe. 
+\paragraph{Règles de communications:}Relations (de qui à qui ?)
+\subparagraph{Définitions de Sphères:} Elles permettent de définir des relations entre des expéditeurs(internes) et des destinataires(externes).
+\paragraph{Règles de sécurités: } Ainsi une règle de sécurité est la composée d'une ou plusieurs actions réalisé(s) sous une ou plusieurs condition(s).Une règle peut être établi sans condition. Une condition sans actions n'a pas de sens (fait rien)
 
+%action realisable
+\paragraph{Actions réalisables:}
+\begin{enumerate}
+\item Bloquer, Autoriser, Audit, Copy, Retarder
+\item Send Pj to : sharecan, mbf, dropbox
+\item Détruire une PJ.
+\item Mettre en Quarantaine, Détruire.
+\item Envoyer un avertissement à l'éxpéditeur, au destinataire, à l'administrateur.
+\item Mettre un Tag sur le sujet
+\item Mettre une signature.
+\end{enumerate} 
+Chaque action est paramètrable avec des caractériques qui lui est propre. (ex clé applicative sharecan, …)\\
+Attention on doit pouvoir modifier l'ordre des actions. (car elles seront exécutées dans cet ordre)
+
+\paragraph{Gestion des conflits :} 
+Un conflit se produit lors deux actions contradictoires vérifient les mêmes conditions.
+\subparagraph{Qu’est ce que des actions contradictoires :}
+\begin{enumerate}
+ \item (autoriser)
+ \item Détruire / conserver.
+\end{enumerate}
+
+\paragraph{Interprêtation dans le filtrage :}
+\begin{enumerate}
+\item repérage des éléments identifiables (sujet, pièce jointes, …).
+\item pour toutes les règles 
+\item le message vérifie-t-il toutes les conditions de la règle.
+\item execute chaque action
+\end{enumerate}
+Les taches ci-dessous sont à réaliser en \textbf{Juillet-Août} sous la direction du responsable R\&D (Lionel Fèvre).
 \subsection{Autres Missions}
+\paragraph{Administration de la table transport}
 
 
 
