@@ -1,14 +1,14 @@
-\section{\colorbox{orange}{Annexe 3}}
-\label{interface1}
+\section{Annexe 5}
+\label{organigramme}
 %inclusion d'une mage dans le document
 \begin{figure}[!h]
 \begin{center}
 %taille de l'image en largeur
 %remplacer "width" par "height" pour régler la hauteur
-\includegraphics[width=15cm]{image/page_phpstorm.png}
+\includegraphics[width=15cm]{image/page-rights.png}
 \end{center}
 %légende de l'image
-\caption{Structure de fichier et code sur phpStorm}
+\caption{Gestion des droits}
 \end{figure}
 
 
@@ -17,9 +17,8 @@
 \begin{center}
 %taille de l'image en largeur
 %remplacer "width" par "height" pour régler la hauteur
-\includegraphics[width=15cm]{image/code_transport.png}
+\includegraphics[width=15cm]{image/organi.png}
 \end{center}
 %légende de l'image
-\caption{Structure de fichier et code sur netbeans}
+\caption{Organigramme}
 \end{figure}
-

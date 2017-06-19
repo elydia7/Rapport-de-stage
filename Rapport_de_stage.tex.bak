@@ -18,8 +18,6 @@
 %pour utiliser \floatbarrier
 %\usepackage{placeins}
 %\usepackage{floatrow}
-\usepackage{lmodern}
- \usepackage{xcolor}
 %espacement entre les lignes
 \usepackage{setspace}
 %modifier la mise en page de l'abstract
@@ -29,7 +27,7 @@
 \usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 %Pour les galerie d'images
 \usepackage{subfig}
- \definecolor{orange}{rgb}{0.97,0.35,0.04}
+
 %====================== INFORMATION ET REGLES ======================
 
 %rajouter les numérotation pour les \paragraphe et \subparagraphe
