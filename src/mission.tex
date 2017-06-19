@@ -6,22 +6,21 @@
 
 \subsection{Missions réalisées}
 \subsubsection{Mise en place de l'environnent de travail}
-Pour pouvoir faire ces taches de développement il fallait avoir certains notions de la structure des fichiers et quelque logiciels de bases a installer pour pouvoir débuter le développement du site appeler (la console d'administration) tel-que: 
+Pour pouvoir faire ces taches de développement il fallait avoir certains notions de la structure des fichiers et quelque logiciels de bases à installer pour pouvoir débuter le développement du site web qu'on appelle (la console d'administration) tel-que: 
 \begin{enumerate}
-\item la structure de la base de donnée \textbf{Mysql} qui comprend plusieurs serveurs de bases de données ces derniers correspondent à des environnements de travail pour les développeurs, qui sont différentes étapes du développement (développement, pré-production, production) avant la version final.
+\item La structure de la base de donnée \textbf{Mysql} qui comprend plusieurs serveurs de bases de données ces derniers correspondent à des environnements de travail pour les développeurs, qui sont différentes étapes du développement (développement, pré-production, production) avant la version final.
 \item la structure du dépôt de fichiers gérer par le gestionnaire de versions \textbf{SVN} qui nous permets de faire des commits sur le serveur de développement.
-\item Installer les IDE \textbf{(NETBEANS et PhpStorm (voir Annexe 5 page.\pageref{ide}))} car le développement actuelle est fait sur \textbf{Netbeans} mais par la suite on développera avec \textbf{PhpStorm} et qu'on utilisera \textbf{Gitlab} comme gestionnaire de version. Il fallait aussi installer \textbf{PUTTY} pour la connexion aux serveur du développement et \textbf{XMIND} un logiciel qui permet de creer des cartes en \textbf{XML}. 
+\item Installer les IDE \textbf{(NETBEANS et PhpStorm (voir Annexe 5 page.\pageref{ide}))} car le développement actuelle est fait sur \textbf{Netbeans} mais que par la suite on développera avec \textbf{PhpStorm} et on utilisera \textbf{Gitlab} comme gestionnaire de version. Il fallait aussi installer \textbf{PUTTY} pour la connexion aux serveur de développement et enfin \textbf{XMIND} un logiciel qui permet de créer des cartes en \textbf{XML} et faire plein d'autre tâches importante. 
 \end{enumerate}
   
 \subsubsection{Définition de permissions sur la console d'administration en fonction du profil des utilisateurs.}
 \begin{description}
 
+\item[Profile:] Un profil est une configuration de droits (admin, rssi, support, etc..)
 
-\item[Profile:] un profil est une configuration de droits (admin, rssi etc..)
+\item[Login:] Utilisateur de la console d'administration ayant un profil.
 
-\item[Login:] utilisateur de la console d’administration ayant un profil.
-
-\item[Pages mvcisé:] on à utiliser le modèle view contrôleur pour développer les différents aspects de notre site.
+\item[Pages mvcisé:] On à utiliser le modèle view contrôleur pour développer les différents aspects de notre site certaines page déjà faite il fallait juste réécrire le code en mvc.
 
 \item[Pages non mvcisé:] utilises un contrôleur pour contrôler les droits afin de rediriger vers la page correspondante en attendant que la page soit mvcisé.
 
@@ -32,20 +31,20 @@ Pour pouvoir faire ces taches de développement il fallait avoir certains notion
 
 \paragraph{Gestion des droits}
 Est une interface d'administration des droits que j'ai développé,
-Comme toutes les autres pages mvcisé j'utilise un contrôleur qui hérite d'un contrôleur générique (créer par responsable R\&D) dans lequel on défini une méthode setRights qui permet:
+Comme toutes les autres pages mvcisé j'utilise un contrôleur qui hérite d'un contrôleur générique (créer par responsable R\&D) dans lequel on définit une méthode setRights qui permet:
 \begin{enumerate}
 
 
 \item Récupérer dans une variable les noms de tous les contrôleurs et leurs méthodes en parcourant un fichier XML générer à partir d'une carte XMIND (voir Annexe 1 page.\pageref{xmind}).
-\item Ensuite créer un formulaire (tableau avec des checkbox) d'administration à partir de cette variable pour les différents profils.
+\item Ensuite créer un formulaire (un tableau avec des checkbox) d'administration à partir de cette variable pour les différents profils.
 	\begin{itemize}
-	\item Lorsqu'on fini de cocher les cases du formulaire et qu'on valide pour l'envoyer, l'action est automatiquement historisée en enregistrant les données modifiées suivi des messages de session en cas d'erreur ou de succès.(voir Annexe 1 page.\pageref{organigramme})
+	\item Lorsqu'on finit de cocher les cases du formulaire et qu'on valide pour l'envoyer, l'action est automatiquement historisée en enregistrant les données modifiées suivi des messages de session en cas d'erreur ou de succès.(voir Annexe 1 page.\pageref{organigramme})
 	\end{itemize}
 \end{enumerate}
 \paragraph{Autorisations}
 \subparagraph{Controlleur: generiqueController} 
-Dans chaque contrôleur on vérifie les droits d’utilisateur de tous les liens sur la pages avant de l’afficher, en parcourant
-un fichier XML qui définit l’architecture de celle-ci.
+Dans chaque contrôleur on vérifie les droits d'utilisateur de tous les liens sur la pages avant de les afficher, en parcourant
+le fichier XML générer par XMIND qui définit l'architecture de ce dernier.
 \subparagraph{Exception pour superuser}
 Par défaut si on est super-user le contrôleur donne droit sur toutes les pages du site.
 \subparagraph{Pages publiques} 
@@ -53,8 +52,8 @@ Certaine page sont public comme par exemple les pages de l'aide (documentation, 
 accessible sans vérification de droits.
 
 \paragraph{Traduction des pages}
-La console d'administration utilise deux formats de langue, par conséquent il faut chercher chaque mot dans une table de correspondance (développer par le responsable D\&R Lionel Fevre) pour ensuite l'appeler dans une fonction qui permet d'afficher ce dernier dans la langue choisie(FR,EN).
-Les taches réalisées jusqu’à maintenant permettent a l'utilisateur d'administrer les les droits d'un certain profile de tel sorte que ce dernier ne puisse accéder qu'aux pages  dont il a l'autorisation. 
+La console d'administration utilise deux formats de langue, par conséquent il faut chercher chaque mot dans une table de correspondance (développer par le responsable D\&R Lionel Fevre) pour ensuite l'appeler dans une fonction qui permet de l'afficher dans la langue choisie(FR,EN).
+Les taches réalisées jusqu'à maintenant permettent à l'utilisateur d'administrer les droits d'un certain profile de tel sorte que ce dernier ne puisse accéder qu'aux pages  dont il a l'autorisation. 
 
 \paragraph{Documentation du projet}
 Comme décrit dans la convention de stage tous les développements devront être documentés et tester, dans la documentation on à quatre parties qui sont:
@@ -64,14 +63,14 @@ Comme décrit dans la convention de stage tous les développements devront être
 \item Documentation technique
 \item Cahier de test.
 \end{itemize}
-Ce document est le comme suivi du projet qui serra envoyé à un certains nombre de personne dans l'entreprise et qui permet de valider le projet. (voir Annexe 2 page.\pageref{documentation})
+Ce document est comme le suivi du projet et il serra envoyé à un certains nombre de personne dans l'entreprise afin de pouvoir valider le projet. (voir Annexe 2 page.\pageref{documentation})
 \subsection{Missions à réalisées}
 \subsubsection{Finalisation du projet et Test}
 Sur les premières taches réalisées (Gestion des droits sur la console):
 \begin{itemize}
 \item Faire un revu du code entier.
 \item Faire des tests et compléter la documentation.
-\item Enfin faire une Présentation du projet a mon  maître de stage. 
+\item Enfin faire une Présentation du projet à mon  maître de stage et le responsable R\&D. 
 \end{itemize}
 \subsubsection{Filtrage en sortie}
 \paragraph{Description de l'objectif:} L'objectif est de définir des règles afin de pouvoir définir des actions (blocage, audit,...) lors du filtrage des e-mails en sortie.
@@ -89,10 +88,10 @@ Une règle est une action réalisée sous condition(s) entre deux ensembles (gro
 \item Détruire une PJ.
 \item Mettre en Quarantaine, Détruire.
 \item Envoyer un avertissement à l'expéditeur, au destinataire, à l'administrateur.
-\item Mettre un Tag sur le sujet
+\item Mettre un "Tag" sur le sujet
 \item Mettre une signature.
 \end{enumerate} 
-Chaque action est paramétrable avec des caractéristiques qui lui sont propre. (ex clé applicative sharecan, …)\\
+Chaque action est paramétrable avec des caractéristiques qui lui est propre. (ex clé applicative sharecan, …)\\
 Attention on doit pouvoir modifier l'ordre des actions. (car elles seront exécutées dans cet ordre)
 
 \paragraph{Gestion des conflits :} 
@@ -115,25 +114,25 @@ Les taches ci-dessous sont à réaliser en \textbf{Juillet-Août} sous la direct
 \subsection{Autres Missions}
 
 \subsubsection{Administration de la table transport}
-La table "transports" est une table de la base de donnée du développement. Dans cette mission j'ai développé une interface qui permet d'administrer cette table des transports, dont j'ai utilisé les outils suivants: (php, html, bootstrap, javaScript etc..), qui devait faire les taches suivantes:
+La table "transports" est une table de la base de donnée du développement. Dans cette mission j'ai développé une interface qui permet d'administrer cette table des transports, dont j'ai utilisé les outils suivants: (php, html, bootstrap, javaScript etc..), pour pouvoir faire les taches suivantes:
 
 \begin{enumerate}
 \item Liste l'ensemble des transports actif par domaine dans un tableau.
 \item La modification d'un transport permet la modification d'un seul transport ou d'en rajouter un s'il n'existe pas déjà.
 \item La suppression d'un transport permet la suppression d'un seul transport.
 \item L'ajout d'un transport rajoute un transport dans la table des transports.
-\item Liste de tous les domaines de la table transport et le nombre de transport associé a chaque domaine.
+\item Liste de tous les domaines de la table transport et le nombre de transport associé à chaque domaine.
 \end{enumerate}
 A noter que j'ai utilisé des classes "db::Object" développé par (L.Fèvre) qui permettent de faire des requêtes sql en passant la requête sql en paramètre. (voir Annexe 6 page.\pageref{transport}
 
 \subsection{Les technologies web utilisées}
-Pour réaliser ce projet, j'ai utilisé des connaissance en MVC et POO les langages utilisés sont PHP, MySQL, JSON, HTML, JAVA-SCRIPT, XML et JQUERY, et BOOTSTRAP.\\
-Suivant un modèle mvc chaque aspect du site web est gérer par un controleur, chaque méthode du contrôleur gère les données d'une page web. On utilise du JSON  pour décoder et encoder les données  des "checkbox" afin d'enregistrer les droits dans array (tableau) et d'envoyer les données dans la vue.
+Pour réaliser ce projet, j'ai utilisé des connaissance en MVC et POO les langages utilisés sont PHP, MySQL, JSON, HTML, JAVA-SCRIPT, XML et JQUERY, et BOOTSTRAP, mais aussi site webtel-que(www.w3schools.com, php.net, etc...) pour des tutoriels en cas de besoin.\\
+Suivant un modèle mvc chaque aspect du site web est gérer par un controleur, chaque méthode du contrôleur gère les données d'une page web. On utilise parfois JSON  pour décoder et encoder les données  des "checkbox" afin d'enregistrer les droits dans array (tableau) et d'envoyer les données dans la vue.
 Pour les scripts on utilise du JS ou JQUERY par exemple pour faire des "data table", gérer certaines actions sur la console.\\
-Pour mieux structurer le site web on parcours une carte XML qu'on générer par XMIND afin d'attribuer les droits de l'utilisateur lors de sa connexion et faire la restriction des pages accessibles par rapport au droits qui lui sont attribués.\\
-BOOTSTRAP: ils ont déjà des exemplaires mise en place pour respecter le style de base.\\
-PHPMyAdmin: sur un serveur de développement je peux me connecter à PHPMyAdmin afin de faire tout les tests nécessaire sur la bases de données.
- HightChart: se sont des templates JS deja fait pour faire des graphes. \textbf{voir Annexe 4}. 
+Pour mieux structurer le site web on parcours une carte XML qu'onà  générer par XMIND afin d'attribuer les droits de l'utilisateur lors de sa connexion et faire la restriction des pages accessibles par rapport aux droits qui lui sont attribués.\\
+BOOTSTRAP: Ils ont déjà des exemplaires mise en place pour respecter leur style de base.\\
+PHPMyAdmin: Sur un serveur de développement je peux me connecter à PHPMyAdmin afin de faire tout les tests nécessaire sur la bases de données.
+HightChart: Sont des templates JS déjà fait pour faire des graphes on a juste qu'à rentrer nos données. \textbf{voir Annexe 4}. 
 
 
 
